@@ -15,3 +15,10 @@ with peaks of 200 requests/h avg from 9 to 10am and 1 to 2pm, which would mean p
 - Failed claims must be recoverable or manually retriable.
 
 ## Non-Functional Requirements
+- The system needs to be reliable: Every claim needs to be processed and reach an end state. Transient failures should be retried automatically up to a defined retry limit. Upon surpassing a set amount of retry attempts it will be marked as failed, where it can be reviewed. Retries can be reset manually.
+- Expected through-put: 200 requests/h average.
+- API Response time: Response times should be instant (under 1 second)
+- End-to-end Response time:  a claim needs to reach and end state in 1 to 2 minutes, depending on external apis.
+- Claim visibility: At any given time users need to be able to query necessary data in an useful format.
+- Observability: The system muse expose enough logs, metrics and tracing information to diagnose processing failures, retry behavior, latency and external dependencies.
+- The system needs to be able to maintain acceptable response times and reliable claim processing as the volume of requests increases. 
