@@ -24,4 +24,4 @@ with peaks of 200 requests/h avg from 9 to 10am and 1 to 2pm, which would mean p
 - The system needs to be able to maintain acceptable response times and reliable claim processing as the volume of requests increases. 
 
 ## High-Level Design
-<img width="538" height="740" alt="image" src="https://github.com/user-attachments/assets/a2d6427f-7139-4dde-987c-f0e8e7d90560" />
+<img width="526" height="738" alt="image" src="https://github.com/user-attachments/assets/8a0d04f3-a3c4-434a-829d-795667ab2b94" />
