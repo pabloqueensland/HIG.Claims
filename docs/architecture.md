@@ -40,3 +40,6 @@ with peaks of 200 requests/h avg from 9 to 10am and 1 to 2pm, which would mean p
 
 <img width="583" height="319" alt="image" src="https://github.com/user-attachments/assets/21c6dfc6-8eb4-4886-9916-224347a555aa" />
 
+## Entity Relationship Diagram
+<img width="361" height="324" alt="image" src="https://github.com/user-attachments/assets/7512f996-3df6-4c8b-97ea-52bebf70deea" />
+
