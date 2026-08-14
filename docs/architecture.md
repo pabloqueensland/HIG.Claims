@@ -30,4 +30,13 @@ with peaks of 200 requests/h avg from 9 to 10am and 1 to 2pm, which would mean p
 ## Claims Processor Consumer Worker
 <img width="598" height="758" alt="image" src="https://github.com/user-attachments/assets/26848e0d-a282-4cbf-bf73-0b755ebb6c4c" />
 
+## Claim States
+-1 - Failed
+0 - Received
+1 - Processing
+2 - Aproved
+3 - Rejected
+4 - ManualReview
+
+<img width="583" height="319" alt="image" src="https://github.com/user-attachments/assets/21c6dfc6-8eb4-4886-9916-224347a555aa" />
 
